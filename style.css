@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* common css */
+body{
+    margin:0px;
+    padding:0px;
+    font-family: Bebas Neue;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 100px;
+   
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px -15px;
+    
+}
+.col{
+    padding: 0px 15px;
+
+}
+h1 ,h2,h3,p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.lorem{
+    font-family: 'Roboto', sans-serif;
+    color:#3e3e3e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.button1{
+    width: 120px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    background: linear-gradient( rgb(63, 156, 233), rgb(16, 75, 238));
+    border: none;
+    border-radius: 5px;
+    
+    
+}
+ /* header start */
+ 
+ /* logo start */
+.logo img{
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+.logo{
+    width: 40%;
+    
+    
+}
+/* logo end */
+/* menu start */
+.menu{
+    width: 60%;
+}
+.menu ul{
+  display: flex ;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  line-height: 80px;
+  list-style: none;
+
+
+    
+}
+.menu a{
+     text-decoration: none;
+     color:#a306b1;
+     font-family: 'Roboto', sans-serif;
+     font-size: 16px;
+     font-weight: 600;
+     
+ }
+.menubar{
+    
+    height: 80px;
+    
+    
+}
+/* menu end */
+
+/* banar section start */
+
+
+/* 1st part text */
+
+.text1{
+    margin-top: 180px;
+}
+
+.text1 h1 {
+    font-size: 80px;
+    color: #940cb6;
+    font-weight: 500;
+}
+.des{
+    line-height: 100px;
+    margin-top: -24px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+ .text1 .first{
+    color: #363958;
+}
+/* 2nd part image */
+
+
+.image img{
+    width: 700px;
+   overflow: hidden;
+   
+   
+    
+}
+.image{
+    position: absolute;
+    right: 0px;
+}
+
+
+
+
+/* banar section end */
+/* about section start */
+.image2 img{
+    width: 600px;
+   overflow: hidden;
+   
+   
+    
+}
+.button2{
+    background: linear-gradient( rgb(233, 63, 205), rgb(66, 4, 124));
+    width: 180px;
+    margin-top: 35px;
+    
+}
+.first2{
+    font-size: 48px;
+    
+}
+.ab1{
+    
+    width: 60%;
+}
+.ab2{
+    
+    width: 40%;
+}
+
+
+
+/* about section end */
+/* working SECTION start */
+.working{
+    background-color: #F8F9FC;
+}
+/* HEDER SECTION START */
+.worksection h1{
+font-size: 48px;
+font-weight: 500;
+color:#363958;
+text-align: center;
+padding: 150px 0px 60px 0px;
+
+}
+.worksection h1 span{
+    color:#940cb6
+}
+
+/* project start */
+.work1{
+    background-color: white;
+    border-radius: 25px;
+    width: 30%;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 1px 1px 20px -5px rgb(0, 0, 0);
+}
+.work1 img{
+    width: 100%;
+    overflow: hidden;
+
+}
+.work1 h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    color: #363958;
+    line-height: 70px;
+}
+.project{
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+/* working SECTION end */
+
+/* Inquiry START */
+.inwimg img{
+    width: 900px;
+    overflow: hidden;
+    
+    
+    
+}
+.inwurray{
+    margin: 0px auto;
+    width: 900px;
+    height: 230px;
+    margin: 80px auto;
+    
+    
+
+    
+    
+}
+.text3 h1{
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.text3{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    background-image: url(image/3.png);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: 0px 100px;
+    
+   
+   
+    
+    
+}
+.button3{
+    background: linear-gradient( rgb(230, 84, 205), rgb(182, 12, 111));
+}
+
+
+/* Inquiry end */
+/* SUBMIT SECTION */
+.submit{
+    background-color: #a61ac9;
+    text-align: center;
+}
+.text4 h1{ color: #ffffff;
+    line-height: 0px;
+    padding-top: 120px;
+
+}
+.email .email1{
+    padding: 20px 70px;
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+}
+.email .click{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 0px 25px  25px 0px;
+    margin-left: -6px;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(43, 40, 43);
+    background-color: rgb(168, 162, 162);
+}
+.email{
+   padding-bottom: 100px;
+}
+
+
+
+/* SUBMIT SECTION END */
+
+/* FOOTER START */
+.footer {
+    background: linear-gradient( rgb(84, 118, 230), rgb(14, 65, 207));
+    
+
+
+}
+.footer p{
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+
+/* FOOTER END  */
